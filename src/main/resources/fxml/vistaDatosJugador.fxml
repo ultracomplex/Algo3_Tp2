@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="220.0" prefWidth="213.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="220.0" prefWidth="213.0">
+         <children>
+            <HBox prefHeight="44.0" prefWidth="220.0" style="-fx-border-radius: 2; -fx-border-color: #000000;">
+               <children>
+                  <Label fx:id="nombreJugador" alignment="CENTER" prefHeight="43.0" prefWidth="213.0" text="Nombre">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="44.0" prefWidth="213.0" style="-fx-border-radius: 2; -fx-border-color: #000000;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="55.0" prefWidth="106.5" text="Energia">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="energiaJugador" alignment="CENTER" prefHeight="55.0" prefWidth="106.5" text="20">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="44.0" prefWidth="213.0" style="-fx-border-radius: 2; -fx-border-color: #000000;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="55.0" prefWidth="106.5" text="Turno">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="turnoJugador" alignment="CENTER" prefHeight="55.0" prefWidth="106.5" text="1">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="44.0" prefWidth="213.0" style="-fx-border-radius: 2; -fx-border-color: #000000;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="55.0" prefWidth="106.5" text="Seniority">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="seniorityJugador" alignment="CENTER" prefHeight="55.0" prefWidth="106.5" text="Novato" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="44.0" prefWidth="213.0" style="-fx-border-radius: 2; -fx-border-color: #000000;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="55.0" prefWidth="106.5" text="Equipamiento">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="equipamientoJugador" alignment="CENTER" prefHeight="55.0" prefWidth="106.5" text="Nada" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
